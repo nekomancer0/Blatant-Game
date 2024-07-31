@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		
+		<link href="./_app/immutable/assets/2.D6N7KPhp.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.C827tHSk.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Bacet_BG.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BktC15Yb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.g6DG62DB.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.B5rO9fML.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.kwoDuNq0.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="container svelte-1060nds" data-svelte-h="svelte-u50vki"><div class="player player-1 svelte-1060nds"><input type="text" placeholder="Player 1" class="svelte-1060nds"> <div class="counter svelte-1060nds"><p class="value svelte-1060nds">15</p> <div class="options svelte-1060nds"><a href="/" class="add svelte-1060nds">+1</a> <a href="/" class="remove svelte-1060nds">-1</a></div></div></div> <div class="player player-2 svelte-1060nds"><input type="text" placeholder="Player 2" class="svelte-1060nds"> <div class="counter svelte-1060nds"><p class="value svelte-1060nds">15</p> <div class="options svelte-1060nds"><a href="/" class="add svelte-1060nds">+1</a> <a href="/" class="remove svelte-1060nds">-1</a></div></div></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_1ikcms6 = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.C827tHSk.js"),
+						import("./_app/immutable/entry/app.BktC15Yb.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
